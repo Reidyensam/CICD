@@ -19,7 +19,11 @@
         </head>
         <body>
             <h:form>
+<<<<<<< HEAD
                 <h1><h:outputText value="Hola Mundo !! - Commit para el fork  - 18 Julio 2025 7:42pm" /></h1>
+=======
+                <h1><h:outputText value="Hola Mundo !! - Commit para el fork  - 18 Julio 2025 7:44pm" /></h1>
+>>>>>>> a2a684d9ca7f05ecfd6d5aa17dd76444303c42a0
                 <br/>
                 <h:commandLink action="#{product.listSetup}" value="All Products" id="linkProds" />
                 <br/>
