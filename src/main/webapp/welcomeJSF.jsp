@@ -19,7 +19,7 @@
         </head>
         <body>
             <h:form>
-                <h1><h:outputText value="Hola Mundo !! - TODO AUTOMÀTICO  - 21 Julio 2025 8:22pm" /></h1>
+                <h1><h:outputText value="GITACCION - 21 JULIO 2025 " /></h1>
                 <br/>
                 <h:commandLink action="#{product.listSetup}" value="All Products" id="linkProds" />
                 <br/>
