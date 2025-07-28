@@ -50,4 +50,4 @@ jobs:
         tags: |
           reidyensam/cicddockerdiplomadogithubactions:latest
           reidyensam/cicddockerdiplomadogithubactions:${{ github.run_number }}
-        build-platforms: linux/amd64
+        platforms: linux/amd64
