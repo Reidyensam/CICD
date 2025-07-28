@@ -14,14 +14,14 @@ jobs:
     steps:
     - name: Checkout
       uses: actions/checkout@v4
-    
+
     - name: Set up JDK 17
       uses: actions/setup-java@v4
       with:
         java-version: '17'
         distribution: 'temurin'
         cache: maven
-        
+
     - name: Build, Test and Package with Maven
       run: mvn -B clean compile test package --file pom.xml
 
@@ -50,4 +50,4 @@ jobs:
         tags: |
           reidyensam/cicddockerdiplomadogithubactions:latest
           reidyensam/cicddockerdiplomadogithubactions:${{ github.run_number }}
-        platform: linux/amd64
+        build-platforms: linux/amd64
